@@ -6,7 +6,8 @@
   
 }
 .separador{
-margin:40px 0  40px 0;  
+  height: 80px;
+  border:1px solid transparent;
 }
 .pricing-table{
   background-color: #eee;
@@ -182,6 +183,9 @@ header{
 
 
 }
+/*.separador{
+
+}*/
 .container{
 
   width: 100%;

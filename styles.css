@@ -166,6 +166,37 @@ ul li{
 .wave{
   position:relative;
   top:250px;
+  display:none;
   
+}
+header{
+  height: 60px !important;
+  width: 100%;
+  position: fixed;
+  z-index: 100000000000;
+  bottom:0;
+  display: flex;
+
+
+}
+.container{
+
+  width: 100%;
+} 
+.menu{
+  display: flex;
+  
+}
+  .menu nav li{
+    border:1px solid black;
+    flex:1 1 auto;
+  }
+
+.imgFondo{
+  display: none;
+}  
+.navbar{
+  display: flex;
+  width: 100%;
 }
 }

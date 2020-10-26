@@ -148,8 +148,8 @@
   background:#2d6187;
  }
 /*-- CSS for extra small devices--*/
-@media (max-width: 767px){
-.contact-form {
+@media screen and (max-width:768px) {
+/*.contact-form {
     width: 90%;
 }
 .navbar-collapse{
@@ -162,5 +162,10 @@
 }
 ul li{
   margin-top:-30px;
+}*/
+.wave{
+  position:relative;
+  top:250px;
+  
 }
 }

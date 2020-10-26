@@ -15,16 +15,10 @@
         }
        header{
 
-    height:240px;
-    /*background-attachment: fixed;*/
-    background-image: url('wave.svg');
-    background-repeat: no-repeat;
-    background-size:100%;
-    /*margin-bottom: 10px;*/
-    /*border:1px solid red;*/
-    font-family: 'Roboto', sans-serif;
-    color:white;
-    width: 100%;
+background: #FF416C;  
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+background: linear-gradient(to right, #FF4B2B, #FF416C); 
+height: 300px;
 
 
        } 
@@ -71,6 +65,29 @@
        .navbar-collapse{
         display: block;
        }
+              .wave{
+        position: relative;
+        top:0px;
+        z-index: 200;
+        /*border:1px solid red;*/
+        opacity:1 ;
+
+        
+      }
+        .imgFondo{
+    width: 98%;
+    height: 250px;
+    position: absolute;
+
+
+  }
+  .imgFondo img{
+      height:250px; 
+      position: absolute;
+      right: 0;
+      z-index:0 ;
+      opacity: .5;    
+  }
     </style>
 </head>
 
@@ -78,10 +95,13 @@
 
     <div class="container-fluid">    
         <header >
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-            <div class="container"><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="imgFondo">
+          <img src="hombre.png" alt="">
+        </div>          
+        <nav class="navbar">
+            <div class="container">
                 <div class="navbar-collapse"
-                    id="navcol-1">
+                    >
                     
                     <ul class="nav navbar-nav ml-auto">
                         <li role="presentation" class="nav-item">Inicio<br /></li>
@@ -95,8 +115,14 @@
             </div>
         </nav>
 
+        <div class="wave" style="height: 200px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100px; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
     </header>
     <!-- HEADER -->
+    <div class="separador" style="margin:40px 0  40px 0;">h</div>
 <div class="contenedorImg" style="display: block;"> 
         <div class="card-deck mb-2 text-center">
            <div class="jumbotron jumbotron-fluid" style="background:white;">
@@ -110,10 +136,7 @@
             </div>
           </div>
         </div> 
-        <div class="card " style="border:1px solid transparent;position: relative;left: 130px;">
-          <img src="hombre.png"  style="width: 60%;height:375px;">
 
-        </div>
             </div>
   </div>  
 

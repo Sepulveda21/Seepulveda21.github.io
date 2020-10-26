@@ -5,6 +5,9 @@
   box-sizing: border-box;
   
 }
+.separador{
+margin:40px 0  40px 0;  
+}
 .pricing-table{
   background-color: #eee;
   font-family: 'Montserrat', sans-serif;
@@ -178,6 +181,10 @@ header{
   display: flex;
 
 
+}
+.separador{
+  display:none;
+  background:red;
 }
 .container{
 

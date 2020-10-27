@@ -198,10 +198,11 @@ header{
   
 }
    .nav li{
-    border:1px solid black;
+    border:1px solid #ddd;
     padding: 5px;
     position: relative;
     top:20px;
+    background:white;
   }
   .nav li span{
     font-size:.6em;

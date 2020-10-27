@@ -191,12 +191,14 @@ header{
   width: 100%;
 } 
 .menu{
-  display: flex;
+  /*display: flex;*/
   
 }
-  .menu nav li{
+   .nav li{
     border:1px solid black;
-    flex:1 1 auto;
+    padding: 10px;
+    position: relative;
+    top:20px;
   }
 
 .imgFondo{

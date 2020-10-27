@@ -196,24 +196,32 @@ header{
   width: 100%;
   /*border:1px solid black;*/
   
+  
 }
+  .nav ul{
+    border:1px solid black;
+    margin:0 auto;
+  }
    .nav li{
     border:1px solid #ddd;
-    padding: 5px;
+    padding: 3px;
     position: relative;
     top:20px;
+
     background:white;
-  }
-  .nav li span{
-    font-size:.6em;
   }
 
 .imgFondo{
   display: none;
 }  
 .navbar{
-  display: flex;
+  /*display: flex;*/
   width: 100%;
   /*border:1px solid black;*/
 }
+}
+.navb{
+  border:1px solid black;
+  z-index: 10000000000000;
+  width: 100%;
 }

@@ -200,6 +200,9 @@ header{
     position: relative;
     top:20px;
   }
+  .nav li span{
+    font-size:.6em;
+  }
 
 .imgFondo{
   display: none;

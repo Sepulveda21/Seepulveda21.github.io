@@ -204,11 +204,13 @@ header{
   }
    .nav li{
     border:1px solid #ddd;
-    padding: 3px;
+    padding: 16px;
     position: relative;
-    top:20px;
-
-    background:blue;
+    top:38px;
+    left:5px;
+    height:50px; 
+    background:white;
+    font-size:.6rem;
   }
 
 .imgFondo{
